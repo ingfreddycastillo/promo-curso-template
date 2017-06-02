@@ -1,0 +1,178 @@
+nav.menu-principal {
+
+	background-color: #070B19;
+	width: 100%;
+	height: 15%;
+	border: 0px;
+	background: transparent;
+	padding: 20px 25px;
+	}
+
+	nav.small {
+
+	background-color: #070B19;
+	width: 100%;
+	height: 7%;
+	border: 0px; 
+	padding: 0 25px !important;
+	
+	}
+
+#menu-principal a{
+
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+	letter-spacing: 2px;
+	
+	
+}
+
+#menu-principal .active a{
+	background-color: #070B19;
+	color: rgb(131,188,84);
+	background: transparent;
+}
+
+#menu-principal ul a:hover{
+	color: rgb(131,188,84);
+	transition: color 0.3s linear 0.1s;
+}
+
+#menu-principal .navbar-toggle{
+	border-radius: 0px;
+}
+
+#menu-principal .navbar-toggle:focus{
+	background-color: rgb(131,188,84);
+	border-color: rgb(131,188,84); 
+}
+#menu-principal .navbar-toggle:hover{
+	background-color: rgb(131,188,84);
+	border-color: rgb(131,188,84); 
+}
+
+#menu-principal .icon-bar:focus {
+	background-color: #fff;
+}
+
+
+.navbar-collapse li a{
+	font-size: 11px;
+	text-transform: uppercase;
+
+}
+/*---------DIV HEADER------------*/
+header{
+
+	/*Ubico la imagen a Cargar*/
+	background: url("../img/header-bg.jpg") no-repeat bottom center;
+	/*Le damos una pisicion fija para centrar*/
+	background-attachment: fixed;
+	/*Le digo que actue como una iamgen a centrartse sola*/
+	background-size: cover;
+	/*Le digo que se centrre desde su punto central*/
+	background-position: center center;
+	/*Posicion Relativa*/
+	position: relative;
+	/*Especifico la altura*/
+	height: 664px;
+	/*El margen desde el Tope  de la pagina*/
+	margin-top: -20px;
+	/*Todo el texto ser'a centrado*/
+	text-align: center;
+	}
+
+	header.small{
+		margin-top: -30px;
+	}
+
+header h1{
+
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 45px;
+	padding-top: 245px;
+}
+
+header p{
+
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+
+.btn{
+
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	border-color: #fff;
+	border-radius: 0px;
+}
+
+.btn:hover{
+	color: rgb(131,188,84);
+	background-color: #fff;
+	transition: background-color 0.5s linear 0.1s;
+	
+}
+
+.span h1{
+	font-weight: bolder;
+}
+
+#nosotros {
+	background-color: #fff;
+	height: 664px;
+}
+
+nav
+ {
+	transition: 0.7s all;
+	-moz-transition: 0.7s all;
+	-webkit-transition: 0.7s all;
+	-o-transition: 0.7s all;
+
+}
+a span {
+    color: #070B19;
+    
+    
+}
+span {
+transition: 0.7s all;
+	-moz-transition: 0.7s all;
+	-webkit-transition: 0.7s all;
+	-o-transition: 0.7s all;
+
+}
+
+span.back-to-top{
+
+	position: fixed;
+	z-index: 99999;
+	bottom: -55px;
+	right: 35px;
+	font-size: 55px;
+}
+
+span.up-to-top{
+
+	position: fixed;
+	z-index: 99999;
+	bottom: 25px;
+	right: 35px;
+	font-size: 55px;
+}
+
+
+hr{
+	background: green;
+}
+
+/*Diseño Responsive*/
+@media (max-width: 768px){
+   nav.navbar-default, nav.menu-principal, nav.menu-principal ul li a, .active {
+    	
+        height: auto;
+    }
+}
